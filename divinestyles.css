@@ -1,0 +1,818 @@
+
+.cont{
+    padding: 0;
+}
+body{
+    transition:all 1s;
+}
+html{
+    overflow-x: hidden;
+    scroll-behavior: auto;
+}
+
+body{width:100%; overflow-x: hidden}
+
+.nav-link{
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.port{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 50px;
+
+}
+
+.portfolio-link{
+    width:100%;
+    margin: 0;
+    padding: 0;
+}
+.portfolio-link1{
+    width: 360px;
+    height: 230px;
+    background-size: 100%;
+}
+.neves5{
+    background-color: whitesmoke;
+    padding-top:12px;
+}
+@media screen and (min-width: 1155px) {
+    .neves5 {
+        background-color: whitesmoke;
+        padding-top:12px;
+        min-height: 100vh;
+    }
+
+}
+@media screen and (min-width: 1100px) and (max-width: 1155px){
+    .neves5 {
+        background-color: whitesmoke;
+        padding-top:12px;
+        min-height: 100vh;
+    }
+
+}
+@media screen and (min-width:795px) and (max-width: 1100px){
+    .neves5{
+        background-color: whitesmoke;
+        padding-top:12px;
+        min-height: 100vh;
+    }
+
+}
+@media screen and (max-width: 600px){
+    .portfolio-img{
+        padding-left: 0;
+        padding-right: 0;
+    }
+}
+.portfolio-link>.col-auto{
+    padding-left: 0;
+}
+.portfolio-img{
+    width: 400px;
+    height: 230px;
+}
+.neves5{
+    padding-bottom: 10px;
+    padding-left:0;
+}
+/*@media screen and (max-width: 795px){*/
+/*    .neves5{*/
+/*        background-color: whitesmoke;*/
+/*        padding-top:12px;*/
+/*        height: 830px;*/
+/*    }*/
+/*}*/
+#portimg1,#portimg2,#portimg3,#portimg4,#portimg5,#portimg6{
+    width: 650px;
+    height: 400px;
+    margin-bottom: 15px;
+    padding-left: 0;
+    margin-left: 0;
+}
+#portimg7,#portimg8,#portimg9,#portimg10,#portimg11,#portimg12{
+    width: 400px;
+    height: 230px;
+    margin-bottom: 15px;
+    padding-left: 0;
+    margin-left: 0;
+ }
+@media screen and (min-width: 1500px){
+    #portimg1,#portimg2,#portimg3,#portimg4,#portimg5,#portimg6{
+        width: 740px;
+        height: 500px;
+        margin-bottom: 15px;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    #portimg7,#portimg8,#portimg9,#portimg10,#portimg11,#portimg12{
+        width: 400px;
+        height: 230px;
+        margin-bottom: 15px;
+        padding-left: 0;
+        margin-left: 0;
+    }
+}
+@media screen and (min-width:405px ) and (max-width: 510px) {
+    .widthchange{
+        width: 85%;
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 650px){
+    #portimg1,#portimg2,#portimg3,#portimg4,#portimg5,#portimg6{
+        width: 400px;
+        height: 400px;
+        margin-bottom: 15px;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+    }
+}
+.profiles{
+}
+
+/*@media screen and (min-width: 1052px) and (max-width: 1200px){*/
+/*    .portfolio-link{*/
+/*        width: 80%;*/
+/*    }*/
+/*}*/
+/*@media screen and (min-width: 1200px){*/
+/*    .portfolio-link{*/
+/*        width: 80%;*/
+/*    }*/
+/*}*/
+
+.portfolio-link1{
+    background-repeat: no-repeat;
+    margin: 10px;
+}
+.rewiew2{
+    width: 80%;
+}
+blockquote {
+    font-family: Georgia, serif;
+    position: relative;
+    margin: 0.5em;
+    padding: 0.5em 2em 0.5em 3em;
+}
+/* Thanks: http://callmenick.com/post/styling-blockquotes-with-css-pseudo-classes */
+blockquote:before {
+    font-family: Georgia, serif;
+    position: absolute;
+    font-size: 6em;
+    line-height: 1;
+    top: 0;
+    left: 0;
+    content: "\201C";
+}
+.rewiew-bord1{
+    min-height: 35vh;
+    margin:2vh 2vh 0 2vh;
+    border-radius: 1vh;
+
+
+}
+.rewiew-bord2{
+    min-height: 35vh;
+    margin: 0 2vh 2vh 2vh;
+    border-radius: 1vh;
+}
+
+
+@media screen and  (max-width: 992px) {.del{
+    display: none;
+}}
+blockquote:after {
+    font-family: Georgia, serif;
+    position: absolute;
+    /* display: block; don't use this, it raised the quote too high from the bottom - defeated line-height? */
+    float:right;
+    font-size:6em;
+    line-height: 1;
+    right:0;
+    bottom:-0.5em;
+    content: "\201D";
+}
+blockquote footer {
+    padding: 0 2em 0 0;
+    text-align:right;
+}
+blockquote cite:before {
+    content: "\2013";
+}
+.rewiew-bord{
+    border: 1px lightblue solid;
+    padding: 10px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+.nav1{
+    padding:  15px;
+    padding-left: 20px;
+}
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+.rewiew1{
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 22px;
+
+}
+.nav-link{
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 5px;
+    margin-right: 9px;
+}
+body{
+    overflow-x: hidden;
+    z-index: 1;
+}
+.rewiew{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: bolder;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.carousel-item{
+    max-height: 820px;
+}
+#neves5{
+    padding-top: 20px;
+}
+
+.neves4, #neves5{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 20px;
+}
+.neves4{
+
+    padding-top: 25vh;
+    min-height: 102vh;
+    background-image: url("GosAkfV-Zew.jpg");
+    background-size: 100% 100%;
+    color: white;
+    background-repeat:no-repeat ;
+    padding-bottom: 5vh;
+}
+#navb{
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+.dog{
+    height: 140px;
+    border-radius: 50%;
+    margin-top: 15px;
+}
+.neves3{
+    background-color: red;
+
+}
+/*@media screen and (min-width: 1000px){*/
+/*    .navbar-nav {*/
+/*        display:table;*/
+/*        width:100%;*/
+/*        margin: 0;*/
+/*    }*/
+/*    .navbar-nav > li {*/
+/*        float:none;*/
+/*        display:table-cell;*/
+/*        text-align:center;*/
+/*    }*/
+/*}*/
+.rewiew-text{
+    font-size:30px;
+    font-weight: bolder;
+    margin-bottom: 0vh;
+}
+.zhepa{
+    margin-top:5vh;
+    color:white;
+}
+@media screen and (max-width: 768px){
+    .form-control{
+        border-radius: 0;
+    }
+}
+.navbar-nav{
+    width: 100%;
+}
+/*.scroll{*/
+/*    position:fixed;*/
+/*    top:0px;*/
+/*    left:0px;*/
+/*    z-index: 2;*/
+/*}*/
+#neves5{
+    min-height: 101vh;
+    margin-top:7vh;
+    margin-bottom: 1vh;
+    padding-bottom:2vh;
+}
+.rewiew11{
+    margin: 40px;
+    padding-left: 0;
+
+}
+@media screen and (max-width: 600px){
+    .rewiew11{
+        margin-left:20px;
+        margin-right: 20px;
+    }
+}
+.btn-rew{
+    width: 400px;
+    max-height: 80px;
+    border-radius: 25px;
+    box-shadow: 4px 4px 5px black;
+    color: white;
+    transition: all 1s;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+
+}
+.marg{
+    margin-left: 20px;
+}
+.carousel-item{
+
+}
+.neves1{
+    margin-top:6vh;
+    margin-bottom:6vh;
+    min-height: 350px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+@media screen and (min-width: 1300px){
+    .neves1, .neves3{
+        /*padding-left: 205px;
+       padding-right: 205px;*/
+        font-family: 'Roboto', sans-serif;
+        font-size: 22px;
+    }
+    #ZbsCarousel{
+        /*padding-left: 205px;
+       padding-right: 205px;*/
+    }
+}
+@media screen and (min-width: 1020px) and (max-width: 1100px){
+    .neves1, .neves3{
+        /*   padding-left: 50px;
+          padding-right: 50px;*/
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+    }
+    #ZbsCarousel{
+        /*   padding-left: 50px;
+          padding-right: 50px;*/
+    }
+}
+@media screen and (min-width: 1180px) and (max-width: 1300px){
+    .neves1, .neves3{
+        /* padding-left: 150px;
+        padding-right: 150px;*/
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px
+    }
+    #ZbsCarousel{
+        /*padding-left: 150px;
+       padding-right: 150px;*/
+    }
+}
+.btn-gradient {
+    border: none;
+    color: black;
+    border-radius: 48px;
+    padding-bottom: .7rem;
+    background-color: whitesmoke;
+    box-shadow: 0 5px 25px rgba(255,255,255, .4);
+    transition: all 1s;
+    font-size: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.btn-gradient.white {
+    color: #000;
+    background-color: #fff;
+    box-shadow: 0 5px 25px rgba(255, 255, 255, .4)
+}
+.concc{
+    width: 300px;
+    max-height: 50px;
+    border-radius: 25px ;
+    box-shadow: 4px 4px 5px black;
+    color: white;
+    transition: all 1s;
+}
+@media screen and (min-width: 1200px){
+    .concc{
+        margin-left: 30px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .del1{
+        display: none;
+    }
+}
+.concc:hover {
+    border-radius: 5px
+}
+.btn-rew:hover {
+    border-radius: 5px
+}
+.btn-gradient:hover {
+    border-radius: 5px
+}
+
+.btn-up {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    z-index: 99;
+    opacity: 0;
+    border: 3px solid #fff;
+    transition: opacity .4s linear, border-radius 1s
+}
+
+.btn-up-show {
+    opacity: 1
+}
+
+.btn-seemore {
+    box-shadow: 0 5px 25px #fff;
+    border: none;
+    z-index: 2;
+    color: #fc466b;
+    border-radius: 48px;
+    padding-bottom: .5rem;
+    background: #fff;
+    transition: all 1s
+}
+
+.btn-seemore:hover {
+    color: #fc466b;
+    border-radius: 5px
+}
+
+.neves5{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1180px){
+    .neves1, .neves3{
+        /* padding-left: 100px;
+         padding-right: 100px;*/
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px
+    }
+    #ZbsCarousel{
+        /*    padding-left: 100px;
+            padding-right: 100px;*/
+    }
+}
+@media screen and (max-width: 1020px){
+    .neves1, .neves3{
+        padding-left: 20px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 15.5px;
+    }
+    #ZbsCarousel{
+    }
+}
+
+/*@media screen and (min-width: 400px) and (max-width: 600px){
+    #ZbsCarousel a.carousel-control-next {
+        display: block;
+        width: 28px;
+        height: 46px;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 40%;left: 97%;
+    }
+    #ZbsCarousel a.carousel-control-prev {
+        display: block;
+        width: 28px;
+        height: 46px;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 40%;
+        left: -2%;
+    }
+}
+
+@media screen and (min-width: 1002px) and (max-width: 1025px){
+    #ZbsCarousel a.carousel-control-next {
+        display: block;
+        width: 28px;
+        height: 46px;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 40%;left: 99%;
+    }
+    #ZbsCarousel a.carousel-control-prev {
+        display: block;
+        width: 28px;
+        height: 46px;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 40%;
+        left: -2%;
+    }
+}
+@media screen and (min-width: 950px) and (max-width: 1002px){
+    #ZbsCarousel a.carousel-control-next {
+        display: block;
+        width: 28px;
+        height: 46px;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 40%;left: 99%;
+    }
+    #ZbsCarousel a.carousel-control-prev {
+        display: block;
+        width: 28px;
+        height: 46px;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 40%;
+        left: -2%;
+    }
+}
+@media screen and (min-width: 700px) and (max-width: 950px){
+    #ZbsCarousel a.carousel-control-next {
+        display: block;
+        width: 28px;
+        height: 46px;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 40%;left: 98%;
+    }
+    #ZbsCarousel a.carousel-control-prev {
+        display: block;
+        width: 28px;
+        height: 46px;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 40%;
+        left: -2%;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1100px){
+    #ZbsCarousel a.carousel-control-next {
+        display: block;
+        width: 28px;
+        height: 46px;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 40%;left: 98%;
+    }
+    #ZbsCarousel a.carousel-control-prev {
+        display: block;
+        width: 28px;
+        height: 46px;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 40%;
+        left: -2%;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 700px){
+    #ZbsCarousel a.carousel-control-next {
+        display: block;
+        width: 28px;
+        height: 46px;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 40%;left: 97%;
+    }
+    #ZbsCarousel a.carousel-control-prev {
+        display: block;
+        width: 28px;
+        height: 46px;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 40%;
+        left: -2%;
+    }
+}
+
+@media screen and (min-width:1100px ) and (max-width: 1181px) {
+    #ZbsCarousel a.carousel-control-next {
+        display: block;
+        width: 28px;
+        height: 46px;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 40%;left: 95%;
+    }
+    #ZbsCarousel a.carousel-control-prev {
+        display: block;
+        width: 28px;
+        height: 46px;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 40%;
+        left: 1%;
+    }
+}
+@media screen and (min-width: 1181px) {
+    #ZbsCarousel a.carousel-control-next {
+        display: block;
+        width: 28px;
+        height: 46px;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 40%;left: 87%;
+    }
+    #ZbsCarousel a.carousel-control-prev {
+        display: block;
+        width: 28px;
+        height: 46px;
+        background-position: 0 0;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 40%;
+        left: 10%;
+    }
+}*/
+.conc{
+    width:350px;
+    margin-bottom: 30px;
+}
+
+.nevlogo{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    color: #a51b35;
+}
+.imgcalc{
+    width: 400px;
+    height:100px;
+    background-image: url("aTX7cpVaEdA.jpg");
+    filter:grayscale(100%);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    float: left;
+    cursor: pointer;
+}
+.neves3, .neves1{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+body{
+    overflow-x: hidden;
+
+}
+
+.advantages{
+    /*border-radius: 50%;*/
+    height: 200px;
+    width: 200px;
+    /*background-color: white;*/
+    margin-top: 70px;
+    margin-left: 8vw;
+    margin-right: 8vw;
+    margin-bottom: 120px;
+}
+.neves6{
+    padding-top:60px;
+    padding-bottom: 50px;
+    background-color: #EDEDED;
+    min-height: 100vh;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 30px;
+    color: black;
+}
+.adv-img{
+    width: 100px;
+    height: 100px;
+}
+.advantagestext{
+    padding-top: 110px;
+    width: 100%;
+    margin-right:30px;
+    font-size:20px;
+    padding-left: 0;
+    word-break:break-word;
+}
+@media screen and (min-width: 1300px) {
+    .adv{
+        width: 60%;
+    }
+}
+
+label{
+    width: 0;
+    height: 0;
+    padding: 0;
+    margin: 0;
+}
+.car1{
+    margin-top: 2vh
+}
+
+.mg{
+    margin-bottom: 2vh;
+}
+.adapt{
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+/*.adapt{*/
+/*    width: 90%;*/
+/*}*/
+@media screen and (min-width: 700px) and  (max-width: 992px){
+    .adapt{
+        width:63%;
+    }
+
+}
+
+.addv{
+    margin-bottom:10vh;
+    font-size: 20px;
+}
+.addv1{
+    margin-bottom:5vh;
+    font-size: 20px;
+}
+
+@media screen and (min-width: 640px) and (max-width: 992px) {
+    .del-img{
+        display:none;
+    }
+    .mag{
+        margin-bottom: 4vh;
+    }
+    .adaptiv{
+        padding-top:0vh;
+    }
+
+
+}
+
+.adaptiv{
+    padding-top: 10vh;
+}
+
+@media screen and (max-width: 640px) {
+    .del-img{
+        display:none;
+    }
+    .addv,.addv1{
+        font-size:16px;
+    }
+    .mag{
+        margin-bottom: 4vh;
+    }
+    .adaptiv{
+        padding-top: 0;
+    }
+
+}
+.img-adapt{
+    width: 100%;
+    height: 100%;
+}
+.center{
+    padding-top: 8vh;
+    padding-left:4vw;
+    padding-right: 4vw;
+}
+.btn-adv{
+    margin-bottom: 10vh;
+    margin-top: 8vh;
+}
+.tel{
+  text-decoration: underline;
+
+}
+.img-rewiew{
+     width: 300px;
+}
